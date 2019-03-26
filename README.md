@@ -14,6 +14,6 @@ allprojects {
   在需要引用的module的build里添加
   ```java
  dependencies {
-	implementation 'com.github.ljwx:EditTextActive:Tag'
+	implementation 'com.github.ljwx:EditTextActive:Tag'  //tag替换为JitPack标签后面的数字即可
 }
   ```
