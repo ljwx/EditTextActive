@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="EditTextActive">
+        <attr name="etaRadiu" format="dimension" />
+        <attr name="etaBgColor" format="color" />
+        <attr name="etaSolidColor" format="color" />
+        <attr name="etaMarginLeft" format="dimension" />
+        <attr name="etaMaxDigit" format="integer" />
+    </declare-styleable>
+</resources>

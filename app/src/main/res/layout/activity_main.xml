@@ -15,9 +15,8 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.ljwx.view.edit.EditNumActive
+    <com.ljwx.view.edit.EditTextActive
         android:background="@null"
-        app:enaMaxDigit="4"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_width="190dp"

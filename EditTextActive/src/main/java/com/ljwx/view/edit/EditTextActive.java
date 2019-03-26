@@ -7,10 +7,9 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.RectF;
 import android.support.v7.widget.AppCompatEditText;
-import android.text.TextWatcher;
 import android.util.AttributeSet;
 
-public class EditNumActive extends AppCompatEditText {
+public class EditTextActive extends AppCompatEditText {
 
     private int mNumDigit = 0;
     private float mMarginValue = 0;
@@ -20,23 +19,23 @@ public class EditNumActive extends AppCompatEditText {
     private int mBgColorN = Color.parseColor("#d9d9d9");
 
 
-    public EditNumActive(Context context) {
+    public EditTextActive(Context context) {
         super(context, null);
     }
 
-    public EditNumActive(Context context, AttributeSet attrs) {
+    public EditTextActive(Context context, AttributeSet attrs) {
         super(context, attrs);
         mBgPaint.setColor(mBgColorN);
-        TypedArray attr = context.obtainStyledAttributes(attrs, R.styleable.EditNumActive);
-        mMarginValue = attr.getDimension(R.styleable.EditNumActive_enaMarginLeft, 30f);
-        mRadiu = attr.getDimension(R.styleable.EditNumActive_enaRadiu, 15);
-        mBgColorN = attr.getColor(R.styleable.EditNumActive_enaBgColor, mBgColorN);
-        mBgColorY = attr.getColor(R.styleable.EditNumActive_enaBgColor, mBgColorY);
-        mNumDigit = attr.getInteger(R.styleable.EditNumActive_enaMaxDigit, 4);
+        TypedArray attr = context.obtainStyledAttributes(attrs, R.styleable.EditTextActive);
+        mMarginValue = attr.getDimension(R.styleable.EditTextActive_etaMarginLeft, 30f);
+        mRadiu = attr.getDimension(R.styleable.EditTextActive_etaRadiu, 15);
+        mBgColorN = attr.getColor(R.styleable.EditTextActive_etaBgColor, mBgColorN);
+        mBgColorY = attr.getColor(R.styleable.EditTextActive_etaBgColor, mBgColorY);
+        mNumDigit = attr.getInteger(R.styleable.EditTextActive_etaMaxDigit, 4);
         attr.recycle();
     }
 
-    public EditNumActive(Context context, AttributeSet attrs, int defStyleAttr) {
+    public EditTextActive(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
     }
 
