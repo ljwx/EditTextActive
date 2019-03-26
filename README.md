@@ -1,4 +1,4 @@
-> 这里是最新版本
+> 这里是最新版本  
 [![](https://www.jitpack.io/v/ljwx/EditTextActive.svg)](https://www.jitpack.io/#ljwx/EditTextActive)
 ### 引用方式
 在根目录的build里添加
