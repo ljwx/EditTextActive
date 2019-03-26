@@ -5,6 +5,5 @@
         <attr name="etaBgColor" format="color" />
         <attr name="etaSolidColor" format="color" />
         <attr name="etaMarginLeft" format="dimension" />
-        <attr name="etaMaxDigit" format="integer" />
     </declare-styleable>
 </resources>
