@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="EditNumActive">
+        <attr name="enaRadiu" format="dimension" />
+        <attr name="enaBgColor" format="color" />
+        <attr name="enaSolidColor" format="color" />
+        <attr name="enaMarginLeft" format="dimension" />
+        <attr name="enaMaxDigit" format="integer" />
+    </declare-styleable>
+</resources>
