@@ -32,7 +32,7 @@ public class EditTextActive extends AppCompatEditText {
         mMarginValue = attr.getDimension(R.styleable.EditTextActive_etaMarginLeft, 30f);
         mRadiu = attr.getDimension(R.styleable.EditTextActive_etaRadiu, 15);
         mBgColorN = attr.getColor(R.styleable.EditTextActive_etaBgColor, mBgColorN);
-        mBgColorY = attr.getColor(R.styleable.EditTextActive_etaBgColor, mBgColorY);
+        mBgColorY = attr.getColor(R.styleable.EditTextActive_etaSolidColor, mBgColorY);
         attr.recycle();
         init();
     }
@@ -44,6 +44,7 @@ public class EditTextActive extends AppCompatEditText {
     public void init() {
         mMaxLenght = getMaxLength();
         setCursorVisible(false);
+        setBackground(null);
     }
 
 //    protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
